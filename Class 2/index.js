@@ -37,7 +37,7 @@ console.log(myobj.message()); //Hello! Aeroplane seep is 2.9
             "My car is " +this.name+ " and it's speed is "+this.speed+"km/hr"
       );
    };
-console.log(myobj.info());
+console.log(myobj.info()); //My car is Civic and it's speed is 3.15km/hr
 
 
 /*Ex# 3: Make A Function Which Prints Your Name.*/
@@ -47,7 +47,7 @@ console.log(myobj.info());
       // return("HUDA");
    };
 
-myName();
+myName(); //HUDA
 // console.log(myName());
 
 
@@ -67,7 +67,7 @@ let calculate = {
             return num1 / num2;
       }
 };
-console.log(calculate.addition(2,4));
-console.log(calculate.subtraction(6,4));
-console.log(calculate.mutliplication(2,3));
-console.log(calculate.division(8,4));
+console.log(calculate.addition(2,4)); //6
+console.log(calculate.subtraction(6,4)); //2
+console.log(calculate.mutliplication(2,3)); //6
+console.log(calculate.division(8,4)); //2
