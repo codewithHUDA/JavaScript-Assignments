@@ -20,7 +20,7 @@
 
 console.log(myobj.name); //Aeroplane.
 console.log(myobj.speed); //2.95.
-console.log(myobj.message()); //Hello! Aeroplane seep is 2.9
+console.log(myobj.message()); //Hello! Aeroplane speed is 2.9
 
 
 /*Ex# 2: Reassign Values In Your Object Properties And Access Using Methods With The Help Of this keyword.*/
